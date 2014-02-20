@@ -3,7 +3,10 @@ var Mongoose = require('mongoose');
 
 
 var ProjectSchema = new Mongoose.Schema({
-  // fields are defined here
+   get "title"
+   get "date"
+   get "summary"
+   get "image"
 });
 
 exports.Project = Mongoose.model('Project', ProjectSchema);
